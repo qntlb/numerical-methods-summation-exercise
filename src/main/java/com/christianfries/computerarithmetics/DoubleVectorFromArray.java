@@ -11,10 +11,6 @@ public class DoubleVectorFromArray implements info.quantlab.numericalmethods.com
 		this.values = values;
 	}
 
-	public DoubleVector of(double[] values) {
-		return new DoubleVectorFromArray(values);
-	}
-
 	public double sum() {
 		// TODO Auto-generated method stub
 		return 0;
