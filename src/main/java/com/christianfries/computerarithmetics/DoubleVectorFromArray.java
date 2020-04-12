@@ -12,8 +12,7 @@ public class DoubleVectorFromArray implements info.quantlab.numericalmethods.com
 	}
 
 	public double sum() {
-		// TODO Auto-generated method stub
+		// TODO Add you code here
 		return 0;
 	}
-
 }
