@@ -10,15 +10,19 @@ class DoubleVectorFromArrayTest {
 
 	@Test
 	void test() {
+		System.out.println("Testing " + DoubleVectorFromArray.class.getCanonicalName());
+		
 		boolean success = DoubleVectorImplemenationChecker.check(DoubleVectorFromArray.class);
 
 		if(!success) {
 			System.out.println("Sorry, the test failed.");
-			fail();
 		}
 		else {
 			System.out.println("Congratulation! You solved the exercise.");
 		}
-	}
 
+		System.out.println("_".repeat(79));
+
+		if(!success) fail();
+	}
 }
