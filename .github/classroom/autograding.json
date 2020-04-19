@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Unit Tests 4",
+      "name": "Unit Tests - Testing your Application",
       "setup": "",
-      "run": "mvn test",
+      "run": "mvn -q -B -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
       "input": "",
       "output": "",
       "comparison": "included",
