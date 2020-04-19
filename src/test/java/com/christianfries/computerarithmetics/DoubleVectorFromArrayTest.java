@@ -1,10 +1,10 @@
 package com.christianfries.computerarithmetics;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 
-import info.quantlab.numericalmethods.computerarithmetics.DoubleVectorImplemenationChecker;
+import info.quantlab.numericalmethods.lecture.computerarithmetics.check.DoubleVectorImplemenationChecker;
 
 class DoubleVectorFromArrayTest {
 
@@ -14,7 +14,7 @@ class DoubleVectorFromArrayTest {
 
 		if(!success) {
 			System.out.println("Sorry, the test failed.");
-			fail("Test failed");
+			fail();
 		}
 		else {
 			System.out.println("Congratulation! You solved the exercise.");
