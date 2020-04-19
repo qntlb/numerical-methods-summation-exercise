@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import info.quantlab.numericalmethods.lecture.computerarithmetics.check.QuadraticEquationImplemenationChecker;
 
-class QuadraticEuationFromCoefficientsTest {
+public class QuadraticEuationFromCoefficientsTest {
 
 	@Test
 	void test() {

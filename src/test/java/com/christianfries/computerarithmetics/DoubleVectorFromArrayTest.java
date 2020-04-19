@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import info.quantlab.numericalmethods.lecture.computerarithmetics.check.DoubleVectorImplemenationChecker;
 
-class DoubleVectorFromArrayTest {
+public class DoubleVectorFromArrayTest {
 
 	@Test
 	void test() {
