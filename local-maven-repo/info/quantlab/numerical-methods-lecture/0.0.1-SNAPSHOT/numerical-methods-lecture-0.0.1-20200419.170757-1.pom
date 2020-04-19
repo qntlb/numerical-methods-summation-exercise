@@ -3,16 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>info.quantlab</groupId>
-	<artifactId>numerical-methods-computerarithmetic-exercise</artifactId>
+	<artifactId>numerical-methods-lecture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Numerical Methods Exercises</name>
+	<name>Numerical Methods Lectures</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<junit.jupiter.version>5.6.2</junit.jupiter.version>
 		<!-- maven plugins -->
 		<compiler-plugin.version>3.8.1</compiler-plugin.version>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.finmath</groupId>
+			<artifactId>finmath-lib</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -29,31 +36,11 @@
 		</plugins>
 	</build>
 
-	<dependencies>
-		<dependency>
-			<groupId>info.quantlab</groupId>
-			<artifactId>numerical-methods-lecture</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter</artifactId>
-			<version>${junit.jupiter.version}</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
-	<repositories>
+	<distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub qntlb Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/qntlb/numerical-methods-computerarithmetic-exercise</url>
+			<url>file:///${project.basedir}/../numerical-methods-computerarithmetic-exercise/local-maven-repo</url>
 		</repository>
-		<repository>
-			<id>local-maven-repo</id>
-			<url>file:///${project.parent.basedir}/local-maven-repo</url>
-		</repository>
-	</repositories>
-
+	</distributionManagement>
 </project>
