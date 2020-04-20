@@ -12,7 +12,7 @@ public class DoubleVectorFromArrayTest {
 	void test() {
 		Class<?> classToTest = DoubleVectorFromArray.class;
 		
-		System.out.println("Testing " + classToTest.getCanonicalName());
+		System.out.println("\nTesting " + classToTest.getCanonicalName());
 		
 		boolean success = DoubleVectorImplemenationChecker.check(classToTest);
 
