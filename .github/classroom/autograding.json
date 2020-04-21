@@ -1,14 +1,24 @@
 {
   "tests": [
     {
-      "name": "Unit Tests - Testing your Application",
+      "name": "Unit Tests - Testing your Application: DoubleVectorFromArrayTest",
       "setup": "",
-      "run": "mvn -q -B -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
+      "run": "mvn -q -B -Dtest=DoubleVectorFromArrayTest -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 2
+      "points": 1
+    },
+    {
+      "name": "Unit Tests - Testing your Application: QuadraticEuationFromCoefficientsTest",
+      "setup": "",
+      "run": "mvn -q -B -Dtest=QuadraticEuationFromCoefficientsTest -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }

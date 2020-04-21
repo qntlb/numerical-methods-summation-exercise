@@ -12,7 +12,7 @@ public class QuadraticEuationFromCoefficientsTest {
 	void test() {
 		Class<?> classToTest = QuadraticEquationFromCoefficients.class;
 		
-		System.out.println("\nTesting " + classToTest.getCanonicalName());
+		System.out.println("Testing " + classToTest.getCanonicalName());
 		
 		boolean success = QuadraticEquationImplemenationChecker.check(classToTest);
 
