@@ -56,7 +56,7 @@
 		</repository>
 		<repository>
 			<id>local-maven-repo</id>
-			<url>https://www.dropbox.com/sh/i3iyjheglbb9bjy/AACBCHjI3Xi3ZD4YdnpERtdua</url>
+			<url>https://raw.githubusercontent.com/finmath/finmath-lib/master</url>
 			<!--
 			<url>file:///${project.basedir}/local-maven-repo</url>
 			-->
