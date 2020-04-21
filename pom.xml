@@ -56,7 +56,7 @@
 		</repository>
 		<repository>
 			<id>local-maven-repo</id>
-			<url>https://raw.githubusercontent.com/finmath/finmath-lib/master</url>
+			<url>https://raw.githubusercontent.com/qntlb/numerical-methods-lecture/master/local-maven-repo</url>
 			<!--
 			<url>file:///${project.basedir}/local-maven-repo</url>
 			-->
