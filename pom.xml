@@ -49,17 +49,16 @@
 	</dependencies>
 
 	<repositories>
+		<!--
 		<repository>
 			<id>github</id>
 			<name>GitHub qntlb Apache Maven Packages</name>
 			<url>https://maven.pkg.github.com/qntlb/numerical-methods-computerarithmetic-exercise</url>
 		</repository>
+		 -->
 		<repository>
-			<id>local-maven-repo</id>
+			<id>lecture-maven-repo</id>
 			<url>https://raw.githubusercontent.com/qntlb/numerical-methods-lecture/master/local-maven-repo</url>
-			<!--
-			<url>file:///${project.basedir}/local-maven-repo</url>
-			-->
 		</repository>
 	</repositories>
 
