@@ -3,7 +3,7 @@
     {
       "name": "Unit Tests - Testing your Application: DoubleVector - BasicFunctionality",
       "setup": "",
-      "run": "mvn -q -B -Dtest=DoubleVectorFromArrayTest#testBasicFunctionality -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
+      "run": "bash -c \"set -o pipefail; mvn -q -B -Dtest=DoubleVectorFromArrayTest#testBasicFunctionality -Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR test | grep -vF [ERROR]\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Unit Tests - Testing your Application: DoubleVector - Accuracy",
       "setup": "",
-      "run": "mvn -q -B -Dtest=DoubleVectorFromArrayTest#testAccuracy -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
+      "run": "bash -c \"set -o pipefail; mvn -q -B -Dtest=DoubleVectorFromArrayTest#testAccuracy -Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR test | grep -vF [ERROR]\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Unit Tests - Testing your Application: QuadraticEuation",
       "setup": "",
-      "run": "mvn -q -B -Dtest=QuadraticEuationFromCoefficientsTest -Dorg.slf4j.simpleLogger.defaultLogLevel=WARN test",
+      "run": "bash -c \"set -o pipefail; mvn -q -B -Dtest=QuadraticEuationFromCoefficientsTest -Dorg.slf4j.simpleLogger.defaultLogLevel=ERROR test | grep -vF [ERROR]\"",
       "input": "",
       "output": "",
       "comparison": "included",
