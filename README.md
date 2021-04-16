@@ -7,8 +7,8 @@ This exercise is related to computer arithmetic:
 1) Implement a class that implements the interface `DoubleVector` of the package `info.quantlab.numericalmethods.lecture.computerarithmetics.summation`.
 
 *Important*: The interface you have to implement is not part of this project. It is imported
-from another project that is referenced by this project. To have a look at this interface
-you can select "Open Declaration" in your IDE (right click on the interface name) or look here:
+from another project that is referenced by this project. To have a look at this interface,
+you can select "Open Declaration" in your IDE (right-click on the interface name) or look here:
 https://github.com/qntlb/numerical-methods-lecture/blob/master/src/main/java/info/quantlab/numericalmethods/lecture/computerarithmetics/summation/DoubleVector.java
 
 The class implementing `DoubleVector` should allow to calculate the sum of the elements of the vector in a *numerically stable way*.
@@ -36,7 +36,7 @@ You can test your implementation by running the unit test in `src/test/java`.
 
 The main task of this exercise is to provide a *numerically stable* summation to the method `getSum`.
 
-For large vectors or values with different sizes, naive summation may result in accumulation of
+For large vectors or values with different sizes, naive summation may result in the accumulation of
 rounding errors. Your code should avoid this.
 
 
