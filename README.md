@@ -21,7 +21,7 @@ such that it allows to create an object of the class you have implemented in 1).
 A class like `SummationAssignment` is called a *Factory*, because it allows to create objects. It basically allows us to create an object of *your* class, without knowing the name of your class. We will use this method to test your implementation.
 
 *Hint*: This is a trivial task. If your class in 1) is named `DoubleVectorFromArray` and if
-it has a constructor `DoubleVectorFromArray(double[] values)`, then body of the implementation of the factory class
+it has a constructor `DoubleVectorFromArray(double[] values)`, then the body of the implementation of the factory class
 is just
 
 ```

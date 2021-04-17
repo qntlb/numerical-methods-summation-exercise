@@ -33,7 +33,7 @@ public class SummationAssignmentTest {
 	void testAccuracy() {
 		DoubleVectorFactory solution = new SummationAssignment();
 		
-		System.out.println("Testing accuracy functionality of " + solution.getClass().getCanonicalName());
+		System.out.println("Testing accuracy of " + solution.getClass().getCanonicalName());
 		
 		boolean success = DoubleVectorImplemenationChecker.check(solution, "accuracy");
 
