@@ -11,7 +11,7 @@ public class SummationAssignmentTest {
 
 	@Test
 	void testBasicFunctionality() {
-		DoubleVectorFactory solution = new SummationAssignment();
+		DoubleVectorFactory solution = new SummationAssignmentSolution();
 		
 		System.out.println("Testing basic functionality of " + solution.getClass().getCanonicalName());
 		
@@ -31,7 +31,7 @@ public class SummationAssignmentTest {
 
 	@Test
 	void testAccuracy() {
-		DoubleVectorFactory solution = new SummationAssignment();
+		DoubleVectorFactory solution = new SummationAssignmentSolution();
 		
 		System.out.println("Testing accuracy of " + solution.getClass().getCanonicalName());
 		

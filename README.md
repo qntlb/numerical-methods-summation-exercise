@@ -15,10 +15,10 @@ The class implementing `DoubleVector` should allow to calculate the sum of the e
 
 *Note*: As your task is to implement the interface, read the JavaDoc of that interface for a specification of what to do.
 
-2) When done with 1) implement the method `createDoubleVector` of the class `SummationAssignment`,
+2) When done with 1) implement the method `createDoubleVector` of the class `SummationAssignmentSolution`,
 such that it allows to create an object of the class you have implemented in 1).
 
-A class like `SummationAssignment` is called a *Factory*, because it allows to create objects. It basically allows us to create an object of *your* class, without knowing the name of your class. We will use this method to test your implementation.
+A class like `SummationAssignmentSolution` is called a *Factory*, because it allows to create objects. It basically allows us to create an object of *your* class, without knowing the name of your class. We will use this method to test your implementation.
 
 *Hint*: This is a trivial task. If your class in 1) is named `DoubleVectorFromArray` and if
 it has a constructor `DoubleVectorFromArray(double[] values)`, then the body of the implementation of the factory class
