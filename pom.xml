@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>info.quantlab</groupId>
 	<artifactId>numerical-methods-summation-exercise</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Numerical Methods Exercises</name>
 
 	<properties>
@@ -21,9 +21,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>${compiler-plugin.version}</version>
 				<configuration>
-					<source>11</source>
-					<target>11</target>
-					<compilerVersion>11</compilerVersion>
+					<source>17</source>
+					<target>17</target>
+					<compilerVersion>17</compilerVersion>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>info.quantlab</groupId>
 			<artifactId>numerical-methods-lecture</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
