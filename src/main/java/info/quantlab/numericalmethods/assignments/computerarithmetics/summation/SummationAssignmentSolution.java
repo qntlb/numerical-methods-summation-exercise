@@ -17,7 +17,7 @@ public class SummationAssignmentSolution implements DoubleVectorFactory {
 		/*
 		 * Replace the line below this comment with a construction of your implementation
 		 * of the DoubleVector using the array values.
-		 * To test you implementation you may run
+		 * To test your implementation you may run
 		 * SummationAssignmentTest (see src/test/java)
 		 */
 		throw new UnsupportedOperationException("Method not implemented.");
