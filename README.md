@@ -34,7 +34,7 @@ You can test your implementation by running the unit test in `src/test/java`.
 
 ## Main Task
 
-The main task of this exercise is to provide a *numerically stable* summation to the method `getSum`.
+The main task of this exercise is to provide a *numerically stable* summation to the method `sum`.
 
 For large vectors or values with different sizes, naive summation may result in the accumulation of
 rounding errors. Your code should avoid this.
