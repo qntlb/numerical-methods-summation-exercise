@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Test;
 
 import info.quantlab.numericalmethods.assignments.computerarithmetics.check.DoubleVectorImplemenationChecker;
-import info.quantlab.numericalmethods.lecture.computerarithmetics.summation.DoubleVectorFactory;
 
 public class SummationAssignmentTest {
 
