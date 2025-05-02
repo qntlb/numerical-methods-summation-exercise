@@ -7,7 +7,7 @@ This exercise is related to computer arithmetic:
 1) Implement a class that implements the interface `DoubleVector` of the package `info.quantlab.numericalmethods.lecture.computerarithmetics.summation`.
 
 *Important*: The interface you have to implement is not part of this project. It is imported
-from another project that is referenced by this project. To have a look at this interface,
+from another project that is referenced by this project. To take a look at this interface,
 you can select "Open Declaration" in your IDE (right-click on the interface name) or look here:
 https://github.com/qntlb/numerical-methods-lecture/blob/master/src/main/java/info/quantlab/numericalmethods/lecture/computerarithmetics/summation/DoubleVector.java
 
